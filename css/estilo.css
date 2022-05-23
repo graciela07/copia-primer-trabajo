@@ -24,10 +24,16 @@ header{
 
 .tamlogo{
     width: 90px;
+    margin-left: 50px;
 }
 .navbar{
     background-image: radial-gradient(#e96443,#904e95);
 }
+
+.titulo{
+    color: #F5DFBB;
+}
+
 .fuentes{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1rem;
@@ -35,28 +41,47 @@ header{
     text-align: center;
     color: beige;
 }
+.colorBoton{
+    background-color:#F5DFBB ;
+    
+}
+
+
 
 h5{
     text-align: center;
     text-transform: uppercase;
-    font-size: 2rem;
-    margin-top: 200px;
+    font-size: 1rem;
+    color: #000;
 }
+
+    
+
+
 p{
     text-align: center;
     color: #000;
     font-size: 1.5rem;
+    margin-top: 30px;
 }
+
+    .card-img{
+        max-height: 50%;
+    }
+
 
 .nuestrahistoria{
 
-
+    background-color: #F5DFBB;
     text-align: center;
     font-size: 1,5rem;
     color: white;
+    margin: top 30px; 
+    max-height: 20%;
 }
 .parrafo{
-    color: white;
+   color: #000;
+   font-size: 1rem;
 }
 
 
@@ -137,7 +162,9 @@ p{
 
 /* aplico grid*/
 
-
+.carousel {
+    max-width: 50%;
+}
 
 /*destinos turisticos*/
 
@@ -185,7 +212,11 @@ p{
 
       .container-fluid img{
           max-width: 100%;
-      }                   
+          
+      }    
+      .row{
+          background-color: #F5DFBB;
+      }
            
     h2{
         font-size: 1rem;
