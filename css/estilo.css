@@ -1,352 +1,86 @@
- *{
-    margin: 0%;
-    padding: 0%;
-}
+header {
+  background-color: #948b89;
+  width: 100%;
+  height: 50%; }
 
-@import url('https://fonts.googleapis.com/css2? family= Akshar:wght@300 & family= Barlow & family= Cormorant+Garamond:wght@500 & family= PT+Sans:ital, wght@1,700 & family= Roboto:ital,wght@0,300;1,300 & family= Source+Sans+Pro:wght@300 & display=swap');
+.tamlogo {
+  width: 90px;
+  margin-left: 50px; }
 
+.navbar {
+  background-image: radial-gradient(#e96443, #904e95); }
 
+.titulo {
+  color: #F5DFBB; }
 
+.fuentes {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  color: beige; }
 
+.colorBoton {
+  background-color: #F5DFBB; }
 
-header{
-    background-color: #948b89;
-    width: 100%;
-    height: 50%;
+h5 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #000; }
 
-    
-    
-}
+p {
+  text-align: center;
+  color: #000;
+  font-size: 1.5rem;
+  margin-top: 30px; }
 
+.card-img {
+  height: calc( 100vh - 10px); }
 
+.nuestrahistoria {
+  background-color: #F5DFBB;
+  text-align: center;
+  font-size: 1,5rem;
+  color: white;
+  margin: top 30px;
+  max-height: 20%; }
 
+.parrafo {
+  color: #000;
+  font-size: 1rem; }
 
-
-.tamlogo{
-    width: 90px;
-    margin-left: 50px;
-}
-.navbar{
-    background-image: radial-gradient(#e96443,#904e95);
-}
-
-.titulo{
-    color: #F5DFBB;
-}
-
-.fuentes{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1rem;
-    font-weight: bold;
-    text-align: center;
-    color: beige;
-}
-.colorBoton{
-    background-color:#F5DFBB ;
-    
-}
-
-
-
-h5{
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 1rem;
-    color: #000;
-}
-
-    
-
-
-p{
-    text-align: center;
-    color: #000;
+.logo1 {
+  width: 150px;
+  height: 100px;
+  margin-left: 10px;
+  border: #F5DFBB; }
+  .logo1 h1 {
     font-size: 1.5rem;
-    margin-top: 30px;
-}
-
-    .card-img{
-        max-height: 50%;
-    }
-
-
-.nuestrahistoria{
-
-    background-color: #F5DFBB;
     text-align: center;
-    font-size: 1,5rem;
-    color: white;
-    margin: top 30px; 
-    max-height: 20%;
-}
-.parrafo{
-   color: #000;
-   font-size: 1rem;
-}
-
-
-
-
-
-/* .enlaces ul li{
-    display: inline-block;
-    margin-left: 20px;
-}
-
- .enlaces ul li a{
-      text-decoration: none;
-      color: white;
-      font-size: 1rem;
-      margin-left: 20px;     */
-    
-      
-
-  
-
- .logo1{
-      width: 150px;
-      height: 100px;
-      margin-left: 10px;
-      border: #F5DFBB;
-      
-    
-
-}
-
-
-
-
-/* .logowpp{
-    width: 50px;
-    height: 50px;
-    grid-area: logowpp;
-} */
- 
-
-.subtitulos ul h2{
-    
-    color: brown;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-}
-
-.subtitulos ul  h3{    
-    color: brown;
-    font-family:'Roboto', sans-serif;    
-    text-align: center;
-}
-
-.contactanos ul h2{
-    font-family: 'Roboto', sans-serif;
-    size: 1rem;
-    color: white;
-}
-.contactanos {
-    border-radius: 1px;
-    margin-left: 200px;
-   
-    
-}
-
-
-.footer p{
-   
-    text-align: right;
-    font-family:'Roboto', sans-serif; 
-    margin-top: 100px;
-    font-size: 1px;
-    color: #000;
-    
-}
-
-/* aplico grid*/
-
-.carousel {
-    max-width: 50%;
-}
-
-/*destinos turisticos*/
-
-/* header nav h1 ul{
-   background-color: bisque;
-    text-align: center;
-    display: inline-block;
-    padding: 0%;
-    
-
-}
-
-.destinosTuristicos ul li{
-    display: inline-block;
-    text-align: center;
-    
-}
-.sanRafael{
-    margin-right: 200px;
-    margin-left: 200px;
-    width: 300px;
-
-} */
-    
-/* altaMontaña{
-.
-    width: 300px;
-    padding-left: 100px;
-    padding-right: 100px;
-} */
-
-
-
-
-
-
-
-/*tipos de excursiones*/
- h1{
-     font-size: 1.5rem;
-     text-align: center;
-     text-transform: uppercase;
-     color: brown;
- }
-
-      .container-fluid img{
-          max-width: 100%;
-          
-      }    
-      .row{
-          background-color: #F5DFBB;
-      }
-           
-    h2{
-        font-size: 1rem;
-        color: brown;
-        text-transform: uppercase;
-    }  
-    
-.parrafo1{
-    font-size: 1rem;
-    text-transform: none;
-    text-align: justify;
-    
-}
-.parrafo2{
-    font-size: 1rem;
-    text-transform: none;
-    text-align: justify;
-}
-.parrafo3{
-    font-size: 1rem;
-    text-transform: none;
-    text-align: justify;
-}
-.parrafo4{
-
-    font-size: 1rem;
-    text-transform: none;
-    text-align: justify;
-}
-
-
-
-/* reserva
-
-.fondoImagen{
-    background-image: url(../imagenes/aventura3.jpg);
-    width: 100%;
-    height: 100%;
-    grid-area: fondoImagen;
-    
-}
-.bodyReserva .fondoImagen Reserva h1{
-
-        text-align: center;
-}
-
-.Reserva ul  li a{
-    text-align: center;
-    color: azure;
-    text-align: center;
-    text-decoration: none;
     text-transform: uppercase;
-}
-   .formulario{
-       position: fixed;
-       left: 40%;
-       margin: 100px 15px 15px 15px;
-       padding:  30px 30px 30px 30px;
-       border: solid 1px chocolate ;
-       border-radius: 20px;
-       max-width: 300px;
-   }           
- 
-    .formularioInternos{
-       background-color: antiquewhite;
-        border: none;
-        border-width: 2px;
-        border-color: brown;
-        border-radius: 20px;
-        padding: 10px 10px 15px 15px;
-    }
-        
-   .primero{
-       background-color: aliceblue;
-       padding: 5px;
-       border: none;
-   } 
-    .segundo{
-      background-color: aliceblue;
-      padding: 5px;
-      border:none ;
-}
-.bodyReserva{
-    display: grid;
-    
-    grid-template-areas:"fondoImagem fondoImagen fondoImagen ";
-}
-.Reserva{
-    grid-area: Reserva;
-}
-.formulario{
-    grid-area: formulario;
-
-}
-
-
-
-
-/*contactanos*/
-
-
-/* .enlaces{
-    
-    background-color: bisque;
-    font-family:'PT Sans', sans-serif ;
-    grid-area: enlaces;
-}
-.Redes{
-    text-align: center;
-    background-color: #CCD5AE;
-    grid-area: Redes;
-}
-.visitanos{
-    background-color: beige;
-    font-family:'PT Sans', sans-serif ;
-    grid-area: visitanos;
-}
-.imagen{
-    background-color: #CCD5AE;
-    text-align: center;
-    grid-area: imagen;
-}
-.mapa iframe{
-    padding-left: 150px;
-    padding-right: 250px;
-    height: 50px;
-    border-radius: 1px solid color black ;
-
-}
-
-                          
-
-  */
+    color: brown; }
+  .logo1 .container-fluid img {
+    max-width: 100%; }
+  .logo1 .row {
+    background-color: #F5DFBB; }
+  .logo1 h2 {
+    font-size: 1rem;
+    color: brown;
+    text-transform: uppercase; }
+  .logo1 .parrafo1 {
+    font-size: 1rem;
+    text-transform: none;
+    text-align: justify; }
+  .logo1 .parrafo2 {
+    font-size: 1rem;
+    text-transform: none;
+    text-align: justify; }
+  .logo1 .parrafo3 {
+    font-size: 1rem;
+    text-transform: none;
+    text-align: justify; }
+  .logo1 .parrafo4 {
+    font-size: 1rem;
+    text-transform: none;
+    text-align: justify; }
