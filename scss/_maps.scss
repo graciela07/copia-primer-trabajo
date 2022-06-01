@@ -1,0 +1,24 @@
+$estilo:( color: black, tamFuente:15px, colorFondo:#D4A373 );
+
+.parrafo1{
+    color: map-get($estilo,color );
+    font-size: map-get($estilo,tamFuente );
+    background-color: map-get($estilo,colorFondo );
+}
+.parrafo2{
+
+    color: map-get($estilo,color );
+    font-size: map-get($estilo,tamFuente );
+    background-color: map-get($estilo, colorFondo);
+}
+
+.parrafo3{
+    color: map-get($estilo,color );
+    font-size: map-get($estilo,tamFuente );
+    background-color: map-get($estilo, colorFondo );
+}
+.parrafo4{
+    color: map-get($estilo,color );
+    font-size: map-get($estilo,tamFuente );
+    background-color: map-get($estilo,colorFondo );
+}

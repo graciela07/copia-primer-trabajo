@@ -7,6 +7,11 @@ $font-family_1: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 $background-color_1: #948b89;
 $background-color_2: #F5DFBB;
 
+@import "maps";
+@import "extend";
+@import"mixin";
+
+
 header {
 	background-color: $background-color_1;
 	width: 100%;
@@ -32,7 +37,7 @@ header {
 .colorBoton {
 	background-color: $background-color_2;
 }
-h5 {
+h1 {
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 1rem;
@@ -104,5 +109,92 @@ h2 {
 	font-size: 1rem;
 	text-transform: none;
 	text-align: justify;
+
+
+	/*tipos de excurisones*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+/*reserva*/
+}
+.formulario{
+	width: 400px;
+	background-color: $background-color_1;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 4px;
+	font-family: $font-family_1;
+	color: white;
+	box-shadow: 7px, 13px, 30px, #F5DFBB;
+}
+
+
+#nombre{
+	width: 100%;
+	background-color: $background-color_1;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 15px;
+	border: 1px solid #F5DFBB;
+	font-family: $font-family_1; 
+	font-size: 15px;
+}
+#apellido{
+	width: 100%;
+	background-color:$background-color_1;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 15px;
+	border: 1px solid #F5DFBB;
+	font-family:$font-family_1; 
+	font-size: 15px;
+
+}
+#correo{
+	width: 100%;
+	background-color:$background-color_1;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 15px;
+	border: 1px solid #F5DFBB;
+	font-family:$font-family_1; 
+	font-size: 15px;
+
+}
+#textarea{
+
+    width: 100%;
+	background-color:$background-color_1;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 15px;
+	border: 2px solid #F5DFBB;
+	font-family:$font-family_1; 
+	font-size: 15px;
+}
+.primero{
+
 }

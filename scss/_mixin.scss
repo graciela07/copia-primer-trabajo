@@ -1,0 +1,14 @@
+@mixin titulos{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+}
+.parrafo5{
+
+@include titulos;
+}
+.quienesSomos{
+    @include titulos;
+
+}
