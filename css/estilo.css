@@ -66,7 +66,7 @@ header {
 h1 {
   text-align: center;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #000; }
 
 p {
@@ -95,12 +95,18 @@ p {
   height: 100px;
   margin-left: 10px;
   border: #F5DFBB;
+  /*tipos de excursiones*/
+  /*destinos turisticos*/
   /*reserva*/ }
   .logo1 h1 {
     font-size: 1.5rem;
     text-align: center;
     text-transform: uppercase;
     color: brown; }
+  .logo1 footer p {
+    background-color: #948b89;
+    font-size: 1rem;
+    text-align: left; }
   .logo1 .container-fluid img {
     max-width: 100%; }
   .logo1 .row {
@@ -124,19 +130,30 @@ p {
   .logo1 .parrafo4 {
     font-size: 1rem;
     text-transform: none;
+    text-align: justify; }
+  .logo1 .texto p {
+    font-size: 1rem;
+    text-transform: none;
     text-align: justify;
-    /*tipos de excurisones*/ }
+    color: #e96443; }
 
 .formulario {
-  width: 400px;
+  max-width: 400px;
+  height: auto;
   background-color: #948b89;
-  padding: 30px;
+  padding: 20px;
   margin: auto;
   margin-top: 100px;
   border-radius: 4px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: white;
-  box-shadow: 7px, 13px, 30px, #F5DFBB; }
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-wrap: wrap; }
+  .formulario h2 {
+    font-size: 1rem; }
 
 #nombre {
   width: 100%;
@@ -144,9 +161,12 @@ p {
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 15px;
+  margin-left: 25px;
+  margin-right: auto;
   border: 1px solid #F5DFBB;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 15px; }
+  font-size: 15px;
+  display: flex; }
 
 #apellido {
   width: 100%;
@@ -156,7 +176,9 @@ p {
   margin-bottom: 15px;
   border: 1px solid #F5DFBB;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 15px; }
+  font-size: 15px;
+  display: flex;
+  margin-left: 30px; }
 
 #correo {
   width: 100%;
@@ -166,7 +188,9 @@ p {
   margin-bottom: 15px;
   border: 1px solid #F5DFBB;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 15px; }
+  font-size: 15px;
+  display: flex;
+  margin-left: 30px; }
 
 #textarea {
   width: 100%;
@@ -176,4 +200,80 @@ p {
   margin-bottom: 15px;
   border: 2px solid #F5DFBB;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 15px; }
+  font-size: 15px;
+  display: flex;
+  margin-left: 30px; }
+
+.primero:focus {
+  height: 35px;
+  color: white;
+  border: 2px solid #F5DFBB; }
+
+.segundo:focus {
+  height: 35px;
+  color: white;
+  border: 2px solid #F5DFBB; }
+
+.primero {
+  margin-left: 30px; }
+
+.reserva {
+  background-image: url(../imagenes/hojas.jpg);
+  background-size: 100vh w-10;
+  background-repeat: no-repeat;
+  flex-wrap: wrap; }
+
+footer p {
+  background-color: #948b89;
+  font-size: 1rem;
+  text-align: left;
+  width: 100%;
+  height: 50px; }
+
+/*contactanos*/
+.redesSociales {
+  background-color: #F5DFBB;
+  display: flex;
+  flex-direction: row;
+  flex-flow: nowrap;
+  justify-content: space-between; }
+  .redesSociales h2 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1rem;
+    display: flex;
+    align-items: flex-start; }
+  .redesSociales h3 {
+    text-align: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: flex-end;
+    align-items: flex-end; }
+
+.iconos {
+  justify-content: flex-end; }
+
+.instagram {
+  width: 30px;
+  height: 30px; }
+
+.facebook {
+  width: 30px;
+  height: 30px; }
+
+.Tweeter {
+  width: 30px;
+  height: 30px; }
+
+.visitanos {
+  background-color: #948b89;
+  font-size: 1.5rem;
+  text-align: left;
+  text-transform: uppercase;
+  text-align: center; }
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  background-color: #F5DFBB;
+  border-radius: 1px solid black; }

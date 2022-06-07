@@ -40,7 +40,7 @@ header {
 h1 {
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	color: $color_3;
 }
 p {
@@ -77,6 +77,19 @@ p {
 	text-transform: uppercase;
 	color: $color_5;
 }
+footer{
+	p{
+		background-color: $background-color_1;
+		font-size:1rem;
+		text-align: left;
+								
+							
+		}
+	}					 
+
+
+
+/*tipos de excursiones*/
 .container-fluid {
 	img {
 		max-width: 100%;
@@ -109,92 +122,220 @@ h2 {
 	font-size: 1rem;
 	text-transform: none;
 	text-align: justify;
-
-
-	/*tipos de excurisones*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+.texto p{
+	font-size: 1rem;
+	text-transform: none;
+	text-align: justify;
+	color: #e96443;
+}
+
+
+	/*destinos turisticos*/
+
+
+
+
+	
+		
+	
+	
+	
+	
+
+  
+
+	  
+
+	
+       
+		   
+		
+	
+
+
+
+
+
+
+
+
 /*reserva*/
 }
-.formulario{
-	width: 400px;
+.formulario {
+	max-width: 400px;
+	height: auto;
 	background-color: $background-color_1;
-	padding: 30px;
+	padding: 20px;
 	margin: auto;
 	margin-top: 100px;
 	border-radius: 4px;
 	font-family: $font-family_1;
 	color: white;
-	box-shadow: 7px, 13px, 30px, #F5DFBB;
+	-webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+	display: flex;
+	flex-wrap: wrap;
+	
+	h2{
+		font-size: 1rem;
+	}
+
+	
+	
 }
 
+     #nombre{
+	   width: 100%;
+	   background-color: $background-color_1;
+	   padding: 10px;
+	   border-radius: 4px;
+	   margin-bottom: 15px;
+	   margin-left: 25px;
+	   margin-right: auto;
+	   border: 1px solid #F5DFBB;
+	   font-family: $font-family_1; 
+	    font-size: 15px;
+		display: flex;
+	 }
+         #apellido{
+	       width: 100%;
+	       background-color:$background-color_1;
+	        padding: 10px;
+	        border-radius: 4px;
+	        margin-bottom: 15px;
+	        border: 1px solid #F5DFBB;
+	        font-family:$font-family_1; 
+	        font-size: 15px;
+			display: flex;
+             margin-left: 30px;
+		 }
+              #correo{
+	           width: 100%;
+	            background-color:$background-color_1;
+	            padding: 10px;
+	            border-radius: 4px;
+	            margin-bottom: 15px;
+	            border: 1px solid #F5DFBB;
+	            font-family:$font-family_1; 
+	            font-size: 15px;
+			    display: flex;
+				margin-left: 30px;
+			  }
 
-#nombre{
-	width: 100%;
+                   #textarea{
+
+                    width: 100%;
+	                background-color:$background-color_1;
+	                padding: 10px;
+	                border-radius: 4px;
+	                 margin-bottom: 15px;
+	                 border: 2px solid #F5DFBB;
+	                 font-family:$font-family_1; 
+	                 font-size: 15px;
+					 display: flex;
+					 margin-left: 30px;
+					 
+				   	 }	
+						
+						.primero:focus{
+							height: 35px;
+						    color: $color_4;	
+						    border: 2px solid #F5DFBB;
+							
+									}	
+						.segundo:focus{
+							height: 35px;
+							color: $color_4;
+							border:   2px solid #F5DFBB;
+							
+						}	
+						.primero{
+							margin-left: 30px;
+						}
+						
+									
+
+	.reserva{
+				background-image: url(../imagenes/hojas.jpg);
+				background-size: 100vh w-10;
+				background-repeat: no-repeat;
+				flex-wrap: wrap;
+				
+	}							
+								
+footer{
+	p{
 	background-color: $background-color_1;
-	padding: 10px;
-	border-radius: 4px;
-	margin-bottom: 15px;
-	border: 1px solid #F5DFBB;
-	font-family: $font-family_1; 
-	font-size: 15px;
-}
-#apellido{
+	font-size:1rem;
+	text-align: left;
 	width: 100%;
-	background-color:$background-color_1;
-	padding: 10px;
-	border-radius: 4px;
-	margin-bottom: 15px;
-	border: 1px solid #F5DFBB;
-	font-family:$font-family_1; 
-	font-size: 15px;
+	height: 50px;
+							
+						
+	}
+}					 
+					 
+/*contactanos*/
+
+.redesSociales{
+
+	         background-color: $background-color_2;
+			 display: flex;
+			 flex-direction: row;
+			 flex-flow: nowrap;
+			 justify-content: space-between;
+			 
+	     h2{
+		    
+		     font-family: $font-family_1;
+		     font-size: 1rem;
+			 display: flex;
+			 align-items: flex-start;
+			}
+			
+
+			 h3{
+				text-align: center;
+				font-family: $font-family_1;
+				font-size: 1rem; 
+				text-align: center;
+				justify-content: flex-end;
+				align-items: flex-end;}
+
+				
+				
+			}
+.iconos{
+	justify-content: flex-end;
+}			 
+			
+.instagram{
+	width: 30px;
+	height: 30px;
+}
+.facebook{
+	width: 30px;
+	height: 30px;
+}
+.Tweeter{
+	width: 30px;
+	height: 30px;
+}
+	
+.visitanos{
+	background-color: $background-color_1;
+	font-size:1.5rem;
+	text-align: left;
+	text-transform: uppercase;
+	text-align: center;
+							
 
 }
-#correo{
-	width: 100%;
-	background-color:$background-color_1;
-	padding: 10px;
-	border-radius: 4px;
-	margin-bottom: 15px;
-	border: 1px solid #F5DFBB;
-	font-family:$font-family_1; 
-	font-size: 15px;
-
-}
-#textarea{
-
-    width: 100%;
-	background-color:$background-color_1;
-	padding: 10px;
-	border-radius: 4px;
-	margin-bottom: 15px;
-	border: 2px solid #F5DFBB;
-	font-family:$font-family_1; 
-	font-size: 15px;
-}
-.primero{
-
+.mapa{
+	display: flex;
+	justify-content: center;
+	background-color: $background-color_2;
+	border-radius: 1px solid black;
 }
