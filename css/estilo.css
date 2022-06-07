@@ -1,22 +1,22 @@
 .parrafo1 {
   color: black;
   font-size: 15px;
-  background-color: #D4A373; }
+  background-color: #e6dbd0; }
 
 .parrafo2 {
   color: black;
   font-size: 15px;
-  background-color: #D4A373; }
+  background-color: #e6dbd0; }
 
 .parrafo3 {
   color: black;
   font-size: 15px;
-  background-color: #D4A373; }
+  background-color: #e6dbd0; }
 
 .parrafo4 {
   color: black;
   font-size: 15px;
-  background-color: #D4A373; }
+  background-color: #e6dbd0; }
 
 .visitaMendoza, .tierraSol {
   font-family: Arial, Helvetica, sans-serif;
@@ -44,11 +44,11 @@ header {
   height: 50%; }
 
 .tamlogo {
-  width: 90px;
+  width: 80px;
   margin-left: 50px; }
 
 .navbar {
-  background-image: radial-gradient(#e96443, #904e95); }
+  background-image: radial-gradient(#463207, #e9dfca); }
 
 .titulo {
   color: #F5DFBB; }
@@ -66,7 +66,7 @@ header {
 h1 {
   text-align: center;
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #000; }
 
 p {
@@ -76,68 +76,148 @@ p {
   margin-top: 30px; }
 
 .card-img {
-  height: calc( 100vh - 10px); }
+  height: calc( 100vh - 100px); }
 
-.nuestrahistoria {
+.quienesSomos {
   background-color: #F5DFBB;
-  text-align: center;
-  font-size: 1,5rem;
-  color: white;
-  margin: top 30px;
-  max-height: 20%; }
-
-.parrafo {
   color: #000;
-  font-size: 1rem; }
+  margin-bottom: 20px; }
+
+.botonWhatsApp img {
+  width: 50px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px; }
+
+.parrafo6 {
+  background-color: #F5DFBB;
+  font-size: 1rem;
+  margin-bottom: 100px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 2px solid black; }
 
 .logo1 {
   width: 150px;
   height: 100px;
   margin-left: 10px;
-  border: #F5DFBB;
-  /*tipos de excursiones*/
-  /*destinos turisticos*/
-  /*reserva*/ }
+  border: #F5DFBB; }
   .logo1 h1 {
     font-size: 1.5rem;
     text-align: center;
     text-transform: uppercase;
     color: brown; }
-  .logo1 footer p {
+
+#exampleModal {
+  background-color: #F5DFBB; }
+
+footer {
+  background-image: radial-gradient(#463207, #e9dfca);
+  width: 100%;
+  padding: 0px 20px 0px 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap; }
+  footer p {
     background-color: #948b89;
     font-size: 1rem;
-    text-align: left; }
-  .logo1 .container-fluid img {
-    max-width: 100%; }
-  .logo1 .row {
-    background-color: #F5DFBB; }
-  .logo1 h2 {
-    font-size: 1rem;
-    color: brown;
-    text-transform: uppercase; }
-  .logo1 .parrafo1 {
-    font-size: 1rem;
-    text-transform: none;
-    text-align: justify; }
-  .logo1 .parrafo2 {
-    font-size: 1rem;
-    text-transform: none;
-    text-align: justify; }
-  .logo1 .parrafo3 {
-    font-size: 1rem;
-    text-transform: none;
-    text-align: justify; }
-  .logo1 .parrafo4 {
-    font-size: 1rem;
-    text-transform: none;
-    text-align: justify; }
-  .logo1 .texto {
-    color: #948b89;
-    font-size: .5rem;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+    text-align: left;
+    width: 100%;
+    height: 50px; }
 
+.iconos {
+  width: 25px;
+  height: 25px; }
+
+/*tipos de excursiones*/
+.container-fluid img {
+  max-width: 100%; }
+
+.row {
+  background-color: #F5DFBB; }
+
+h2 {
+  font-size: 1rem;
+  color: brown;
+  text-transform: uppercase; }
+
+.parrafo1 {
+  font-size: 1rem;
+  text-transform: none;
+  text-align: justify;
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 2px solid black; }
+
+.parrafo2 {
+  font-size: 1rem;
+  text-transform: none;
+  text-align: justify;
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 2px solid black; }
+
+.parrafo3 {
+  font-size: 1rem;
+  text-transform: none;
+  text-align: justify;
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 2px solid black; }
+
+.parrafo4 {
+  font-size: 1rem;
+  text-transform: none;
+  text-align: justify;
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 2px solid #948b89;
+  /*destinos turisticos*/ }
+
+.texto {
+  color: #948b89;
+  margin-top: 100px;
+  font-size: 1.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 2px solid black; }
+
+.texto2 {
+  color: #948b89;
+  font-size: 1.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 150px; }
+
+/*reserva*/
 .formulario {
-  max-width: 400px;
+  max-width: 320px;
   height: auto;
   background-color: #948b89;
   padding: 20px;
@@ -152,7 +232,8 @@ p {
   display: flex;
   flex-wrap: wrap; }
   .formulario h2 {
-    font-size: 1rem; }
+    font-size: 1rem;
+    color: #000; }
 
 #nombre {
   width: 100%;
@@ -189,7 +270,8 @@ p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 15px;
   display: flex;
-  margin-left: 30px; }
+  margin-left: 30px;
+  flex-wrap: wrap; }
 
 #textarea {
   width: 100%;
@@ -201,7 +283,8 @@ p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 15px;
   display: flex;
-  margin-left: 30px; }
+  margin-left: 30px;
+  flex-wrap: wrap; }
 
 .primero:focus {
   height: 35px;
@@ -222,13 +305,6 @@ p {
   background-repeat: no-repeat;
   flex-wrap: wrap; }
 
-footer p {
-  background-color: #948b89;
-  font-size: 1rem;
-  text-align: left;
-  width: 100%;
-  height: 50px; }
-
 /*contactanos*/
 .redesSociales {
   background-color: #F5DFBB;
@@ -240,7 +316,8 @@ footer p {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 1rem;
     display: flex;
-    align-items: flex-start; }
+    align-items: flex-start;
+    color: #000; }
   .redesSociales h3 {
     text-align: center;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -249,27 +326,16 @@ footer p {
     justify-content: flex-end;
     align-items: flex-end; }
 
-.iconos {
-  justify-content: flex-end; }
-
-.instagram {
-  width: 30px;
-  height: 30px; }
-
-.facebook {
-  width: 30px;
-  height: 30px; }
-
-.Tweeter {
-  width: 30px;
-  height: 30px; }
-
 .visitanos {
   background-color: #948b89;
   font-size: 1.5rem;
   text-align: left;
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #000; }
+  .visitanos p {
+    font-size: 1rem; }
 
 .mapa {
   display: flex;

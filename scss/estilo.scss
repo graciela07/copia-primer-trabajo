@@ -18,11 +18,12 @@ header {
 	height: 50%;
 }
 .tamlogo {
-	width: 90px;
+	width: 80px;
 	margin-left: 50px;
 }
 .navbar {
-	background-image: radial-gradient(#e96443,#904e95);
+	background-image: radial-gradient(#463207,#e9dfca);
+	;
 }
 .titulo {
 	color: $color_1;
@@ -40,7 +41,7 @@ header {
 h1 {
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	color: $color_3;
 }
 p {
@@ -50,43 +51,83 @@ p {
 	margin-top: 30px;
 }
 .card-img {
-	height: calc( 100vh - 10px);
+	height: calc( 100vh - 100px);
 }
-.nuestrahistoria {
+
+.quienesSomos{
 	background-color: $background-color_2;
-	text-align: center;
-	font-size: 1,5rem;
-	color: $color_4;
-	margin: top 30px;
-	max-height: 20%;
+	color: #000;
+	margin-bottom: 20px;
+	
+
 }
-.parrafo {
-	color: $color_3;
+.botonWhatsApp img{
+	width: 50px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+
+.parrafo6{
+	background-color: $background-color_2;
 	font-size: 1rem;
+	margin-bottom: 100px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	-webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 2px solid black;
+
 }
+
 .logo1 {
 	width: 150px;
 	height: 100px;
 	margin-left: 10px;
 	border: #F5DFBB;
 
-	
 
-    h1{ font-size: 1.5rem;
-	text-align: center;
-	text-transform: uppercase;
-	color: $color_5;
+      h1{ font-size: 1.5rem;
+	  text-align: center;
+	  text-transform: uppercase;
+	  color: $color_5;
+	  
+}
+}
+#exampleModal{
+	background-color: $background-color_2;
 }
 footer{
-	p{
+	background-image: radial-gradient(#463207,#e9dfca);
+
+	width: 100%;
+	padding: 0px 20px 0px 20px;
+	margin-left: 10px;
+	margin-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+
+	
+
+	
+		p{
 		background-color: $background-color_1;
 		font-size:1rem;
 		text-align: left;
+		width: 100%;
+		height: 50px;
+	
 								
 							
 		}
-	}					 
-
+}	
+.iconos{
+	width: 25px;
+	height: 25px;
+}
 
 
 /*tipos de excursiones*/
@@ -107,62 +148,85 @@ h2 {
 	font-size: 1rem;
 	text-transform: none;
 	text-align: justify;
+	-webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 2px solid black;
+
 }
 .parrafo2 {
 	font-size: 1rem;
 	text-transform: none;
 	text-align: justify;
+	-webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 2px solid black;
+
 }
 .parrafo3 {
 	font-size: 1rem;
 	text-transform: none;
 	text-align: justify;
+	-webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 2px solid black;
+
 }
 .parrafo4 {
 	font-size: 1rem;
 	text-transform: none;
 	text-align: justify;
-}
-.texto{
-	color: #948b89;
-	font-size: .5rem;
-	font-family: $font-family_1;
-}
+	-webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 2px solid $background-color_1;
 
 
 	/*destinos turisticos*/
+}
+.texto{
+	color: #948b89;
+    margin-top: 100px;
+	font-size: 1.5rem;
+	font-family: $font-family_1;
+	-webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 2px solid black;
+}
 
+.texto2{
 
+    color: #948b89;
+	font-size: 1.5rem;
+	font-family: $font-family_1;
+	-webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 150px;
 
-
+}
 	
-		
-	
-	
-	
-	
-
-  
-
-	  
-
-	
-       
-		   
-		
-	
-
-
-
-
-
-
 
 
 /*reserva*/
-}
+
 .formulario {
-	max-width: 400px;
+	max-width:320px;
 	height: auto;
 	background-color: $background-color_1;
 	padding: 20px;
@@ -179,6 +243,7 @@ h2 {
 	
 	h2{
 		font-size: 1rem;
+		color: #000;
 	}
 
 	
@@ -221,6 +286,7 @@ h2 {
 	            font-size: 15px;
 			    display: flex;
 				margin-left: 30px;
+				flex-wrap: wrap;
 			  }
 
                    #textarea{
@@ -235,6 +301,7 @@ h2 {
 	                 font-size: 15px;
 					 display: flex;
 					 margin-left: 30px;
+					 flex-wrap: wrap;
 					 
 				   	 }	
 						
@@ -264,17 +331,8 @@ h2 {
 				
 	}							
 								
-footer{
-	p{
-	background-color: $background-color_1;
-	font-size:1rem;
-	text-align: left;
-	width: 100%;
-	height: 50px;
-							
-						
-	}
-}					 
+
+					 
 					 
 /*contactanos*/
 
@@ -288,10 +346,11 @@ footer{
 			 
 	     h2{
 		    
-		     font-family: $font-family_1;
+		     font-family:$font-family_1;
 		     font-size: 1rem;
 			 display: flex;
 			 align-items: flex-start;
+			 color: #000;
 			}
 			
 
@@ -306,22 +365,7 @@ footer{
 				
 				
 			}
-.iconos{
-	justify-content: flex-end;
-}			 
-			
-.instagram{
-	width: 30px;
-	height: 30px;
-}
-.facebook{
-	width: 30px;
-	height: 30px;
-}
-.Tweeter{
-	width: 30px;
-	height: 30px;
-}
+
 	
 .visitanos{
 	background-color: $background-color_1;
@@ -329,6 +373,12 @@ footer{
 	text-align: left;
 	text-transform: uppercase;
 	text-align: center;
+	font-family: $font-family_1;
+	color: #000;
+
+	p{	
+		font-size: 1rem; 
+	}
 							
 
 }
