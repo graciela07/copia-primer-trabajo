@@ -1,419 +1,434 @@
-$color_1: #F5DFBB;
+$color_1: #f5dfbb;
 $color_2: beige;
 $color_3: #000;
 $color_4: white;
-$color_5: brown;
-$font-family_1: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+$color_5: #6F1D1B;
+$font-family_1: 'PT Sans', sans-serif;
 $background-color_1: #948b89;
-$background-color_2: #F5DFBB;
+$background-color_2: #f5dfbb;
 
 @import "maps";
 @import "extend";
-@import"mixin";
+@import "mixin";
 
 
-header {
-	background-color: $background-color_1;
-	width: 100%;
-	height: 50%;
+.inicio{
+  background-image: url(../imagenes/imagenfondo.jpg);
+  background-size: cover;
+  
 }
+
+
+
 .tamlogo {
-	width: 80px;
-	margin-left: 50px;
+  width: 80px;
+  margin-left: 50px;
+  margin-top: 10px;
 }
 .navbar {
-	background-image: radial-gradient(#463207,#e9dfca);
-	;
+  background-image: linear-gradient(to top, #66605F,#BB9457);
 }
 .titulo {
-	color: $color_1;
-}
+  color: $color_1;
+  text-align: center;
+  margin-left: 100px;
+  font-size: 1.5rem;   
+   text-transform: uppercase;
+  color: $color_5;
+  }
+
 .fuentes {
-	font-family: $font-family_1;
-	font-size: 1rem;
-	font-weight: bold;
-	text-align: center;
-	color: $color_2;
-}
-.colorBoton {
-	background-color: $background-color_2;
-}
-h1 {
-	text-align: center;
-	text-transform: uppercase;
-	font-size: 1rem;
-	color: $color_3;
-}
-p {
-	text-align: center;
-	color: $color_3;
-	font-size: 1.5rem;
-	margin-top: 30px;
-}
-.card-img {
-	height: calc( 100vh - 100px);
+  font-family: $font-family_1;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  color: $color_2;
 }
 
-.quienesSomos{
-	background-color: $background-color_2;
-	color: #000;
-	margin-bottom: 20px;
-	
 
-}
-.botonWhatsApp img{
-	width: 50px;
-	position: fixed;
-	bottom: 10px;
-	right: 10px;
-}
 
-.parrafo6{
-	background-color: $background-color_2;
-	font-size: 1rem;
-	margin-bottom: 100px;
-	margin-bottom: 0px;
-	margin-top: 0px;
-	-webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	display: flex;
-	flex-wrap: wrap;
-	border-radius: 2px solid black;
+.container-fluid0 {
+ 
+ max-width: 100%;
+  .row {
+    align-items: center;
+    margin-bottom:600px;
+   
+    img {
+    max-width: 100%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+   
+  }
+  }
 
 }
 
-.logo1 {
-	width: 150px;
-	height: 100px;
-	margin-left: 10px;
-	border: #F5DFBB;
+
+  
 
 
-      h1{ font-size: 1.5rem;
-	  text-align: center;
-	  text-transform: uppercase;
-	  color: $color_5;
-	  
+
+.lugar{
+  font-size: 1rem;
+  text-transform: none;
+  text-align: justify;
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  border-radius: 2px solid $background-color_1;
+  padding: 10px;
+  background-color: #BB9457;
+  
 }
-}
-#exampleModal{
-	background-color: $background-color_2;
-}
-footer{
-	background-image: radial-gradient(#463207,#e9dfca);
+.sub{
+  font-size:1,5rem;
+  text-transform: none;
+  text-align: justify;
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  border-radius: 2px solid $background-color_1;
+  padding: 10px;
+  background-color: #BB9457;
+  color: $color_1;
+  
+  
+  
 
-	max-width: 100%;
-	padding: 0px 20px 0px 20px;
-	margin-left: 10px;
-	margin-top: 10px;
-	display: flex;
-	flex-wrap: wrap;
 
-	
-
-	
-		p{
-		background-color: $background-color_1;
-		font-size:1rem;
-		text-align: left;
-		width: 100%;
-		height: 50px;
-	
-								
-							
-		}
-}	
-.iconos{
-	width: 25px;
-	height: 25px;
 }
+
+a{
+  text-decoration: none;
+  color: $color_1;
+  font-weight: bold;
+}
+.botonWhatsApp img {
+  width: 50px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+
+footer {
+  background-image: linear-gradient(to top, #66605F,#BB9457);
+  max-width: 100%;
+  p {
+    background-color: $background-color_1;
+    font-size: 1rem;
+    text-align: left;
+    width: 100%;
+    height: 50px;
+  }
+}
+.iconos {
+  width: 25px;
+  height: 25px;
+}
+
 
 
 /*tipos de excursiones*/
 .container-fluid {
-	img {
-		max-width: 100%;
-	}
+  img {
+    max-width: 100%;
+  }
 }
 .row {
-	background-color: $background-color_2;
+  background-color: $background-color_2;
 }
-h2 {
-	font-size: 1rem;
-	color: $color_5;
-	text-transform: uppercase;
-	text-align: center;
+.titulo {
+  color: $color_1;
+
+       h2 {
+            font-size: 1rem;
+            color:$color_1;
+            text-transform: uppercase;
+            text-align: center;
+}
 }
 .parrafo1 {
-	font-size: 1rem;
-	text-transform: none;
-	text-align: justify;
-	-webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	display: flex;
-	flex-wrap: wrap;
-	border-radius: 2px solid black;
-	padding: 10px;
-
+  font-size: 1rem;
+  text-transform: none;
+  text-align: justify;
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 20px solid black;
+  padding: 10px;
+  
+  
+  
 }
-.parrafo2 {
-	font-size: 1rem;
-	text-transform: none;
-	text-align: justify;
-	-webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	display: flex;
-	flex-wrap: wrap;
-	border-radius: 2px solid black;
-	padding: 10px;
 
+.parrafo2 {
+  font-size: 1rem;
+  text-transform: none;
+  text-align: justify;
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 20px solid black;
+  padding: 10px;
 }
 .parrafo3 {
-	font-size: 1rem;
-	text-transform: none;
-	text-align: justify;
-	-webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	display: flex;
-	flex-wrap: wrap;
-	border-radius: 2px solid black;
-	padding: 10px;
-
+  font-size: 1rem;
+  text-transform: none;
+  text-align: justify;
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 2px solid black;
+  padding: 10px;
 }
 .parrafo4 {
-	font-size: 1rem;
-	text-transform: none;
-	text-align: justify;
-	-webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	display: flex;
-	flex-wrap: wrap;
-	border-radius: 2px solid $background-color_1;
-	padding: 10px;
-
-
-	/*destinos turisticos*/
+  font-size: 1rem;
+  text-transform: none;
+  text-align: justify;
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 2px solid black;
+  padding: 10px;
 }
-.precio{
-	font-size: 1rem;
-	text-transform: none;
-	text-align: justify;
-	-webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	display: flex;
-	flex-wrap: wrap;
-	border-radius: 2px solid $background-color_1;
-	padding: 10px;
+.imagen1:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  opacity: 50;
+}
+  
+.imagen2:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  opacity: 50;
+}
+
+  .imagen3:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    opacity: 50;
+  }
+    .imagen4:hover {
+      transform: scale(1.1);
+      transition: 1s;
+      opacity: 50;
+    }
+
+.precio {
+  font-size: 1rem;
+  text-transform: none;
+  text-align: justify;
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  border-radius: 2px solid $background-color_1;
+  padding: 10px;
+  background-color: #BB9457;
 
 }
+
+/*destinos turisticos*/
+
+.container-fluid .row{
+  background-color: #6F1D1B
+}
+
 .texto{
-	color: #948b89;
-    margin-top: 100px;
-	font-size: 1.5rem;
-	font-family: $font-family_1;
-	-webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	display: flex;
-	flex-wrap: wrap;
-	border-radius: 2px solid black;
-}
-
-.texto2{
-
-    color: #948b89;
-	font-size: 1.5rem;
-	font-family: $font-family_1;
-	-webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	display: flex;
-	flex-wrap: wrap;
-	margin-bottom: 150px;
-
-}
-.valor{
-	color: #948b89;
-	font-size: 1.5rem;
-	font-family: $font-family_1;
-	-webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	display: flex;
-	flex-wrap: wrap;
-	margin-bottom: 150px;
-}
 	
+  color: $color_1;
+  background-color: #BB9457;
+  font-size: 1rem;
+  text-align: justify;
+  font-family: $font-family_1;
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  border-radius: 2px solid black;
+  padding: 20px 30px 30px 50px;
+  margin-top: 50px;
+  
+}
+
+
+.valor {
+  background-color: #BB9457;
+  font-size: 1rem;
+  font-family: $font-family_1;
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  text-align: left;
+  padding: 20px 40px 30px 40px;
+}
 
 
 /*reserva*/
 
+.reserva {
+  background-image: url(../imagenes/arturo-castaneyra-bfHZ85sFrEA-unsplash.jpg);
+  background-size: cover;
+}
+
 .formulario {
-	max-width:320px;
-	height: auto;
-	background-color: $background-color_1;
-	padding: 20px;
-	margin: auto;
-	margin-top: 100px;
-	border-radius: 4px;
-	font-family: $font-family_1;
-	color: white;
-	-webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-	display: flex;
-	flex-wrap: wrap;
-	
-	h2{
-		font-size: 1rem;
-		color: #000;
-	}
+  max-width: 320px;
+  height: auto;
+  background-color: $background-color_1;
+  padding: 20px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: $font-family_1;
+  color: white;
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-wrap: wrap;
 
-	
-	
+  h2 {
+    font-size: 1rem;
+    color: #000;
+  }
 }
 
-     #nombre{
-	   width: 100%;
-	   background-color: $background-color_1;
-	   padding: 10px;
-	   border-radius: 4px;
-	   margin-bottom: 15px;
-	   margin-left: 25px;
-	   margin-right: auto;
-	   border: 1px solid #F5DFBB;
-	   font-family: $font-family_1; 
-	    font-size: 15px;
-		display: flex;
-	 }
-         #apellido{
-	       width: 100%;
-	       background-color:$background-color_1;
-	        padding: 10px;
-	        border-radius: 4px;
-	        margin-bottom: 15px;
-	        border: 1px solid #F5DFBB;
-	        font-family:$font-family_1; 
-	        font-size: 15px;
-			display: flex;
-             margin-left: 30px;
-		 }
-              #correo{
-	           width: 100%;
-	            background-color:$background-color_1;
-	            padding: 10px;
-	            border-radius: 4px;
-	            margin-bottom: 15px;
-	            border: 1px solid #F5DFBB;
-	            font-family:$font-family_1; 
-	            font-size: 15px;
-			    display: flex;
-				margin-left: 30px;
-				flex-wrap: wrap;
-			  }
+#nombre {
+  width: 100%;
+  background-color: $background-color_1;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+  margin-right: auto;
+  border: 1px solid #f5dfbb;
+  font-family: $font-family_1;
+  font-size: 15px;
+  display: flex;
+}
+#apellido {
+  width: 100%;
+  background-color: $background-color_1;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  border: 1px solid #f5dfbb;
+  font-family: $font-family_1;
+  font-size: 15px;
+  display: flex;
+  margin-left: 30px;
+}
+#correo {
+  width: 100%;
+  background-color: $background-color_1;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  border: 1px solid #f5dfbb;
+  font-family: $font-family_1;
+  font-size: 15px;
+  display: flex;
+  margin-left: 30px;
+  flex-wrap: wrap;
+}
 
-                   #textarea{
+#textarea {
+  width: 100%;
+  background-color: $background-color_1;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  border: 2px solid #f5dfbb;
+  font-family: $font-family_1;
+  font-size: 15px;
+  display: flex;
+  margin-left: 30px;
+  flex-wrap: wrap;
+}
 
-                    width: 100%;
-	                background-color:$background-color_1;
-	                padding: 10px;
-	                border-radius: 4px;
-	                 margin-bottom: 15px;
-	                 border: 2px solid #F5DFBB;
-	                 font-family:$font-family_1; 
-	                 font-size: 15px;
-					 display: flex;
-					 margin-left: 30px;
-					 flex-wrap: wrap;
-					 
-				   	 }	
-						
-						.primero:focus{
-							height: 35px;
-						    color: $color_4;	
-						    border: 2px solid #F5DFBB;
-							
-									}	
-						.segundo:focus{
-							height: 35px;
-							color: $color_4;
-							border:   2px solid #F5DFBB;
-							
-						}	
-						.primero{
-							margin-left: 30px;
-						}
-						
-									
+.primero:focus {
+  height: 35px;
+  color: $color_4;
+  border: 2px solid #f5dfbb;
+}
+.segundo:focus {
+  height: 35px;
+  color: $color_4;
+  border: 2px solid #f5dfbb;
+}
+.primero {
+  margin-left: 30px;
+}
+.segundo {
+  margin: left 30px;
+}
 
-	.reserva{
-				background-image: url(../imagenes/hojas.jpg);
-				background-size: 100vh w-10;
-				background-repeat: no-repeat;
-				flex-wrap: wrap;
-				
-	}							
-								
 
-					 
-					 
+
 /*contactanos*/
-
-.redesSociales{
-
-	         background-color: $background-color_2;
-			 display: flex;
-			 flex-direction: row;
-			 flex-flow: nowrap;
-			 justify-content: space-between;
-			 
-	     h2{
-		    
-		     font-family:$font-family_1;
-		     font-size: 1rem;
-			 display: flex;
-			 align-items: flex-start;
-			 color: #000;
-			}
-			
-
-			 h3{
-				text-align: center;
-				font-family: $font-family_1;
-				font-size: 1rem; 
-				text-align: center;
-				justify-content: flex-end;
-				align-items: flex-end;}
-
-				
-				
-			}
-
-	
-.visitanos{
-	background-color: $background-color_1;
-	font-size:1.5rem;
-	text-align: left;
-	text-transform: uppercase;
-	text-align: center;
-	font-family: $font-family_1;
-	color: #000;
-
-	p{	
-		font-size: 1rem; 
-	}
-							
-
+.contactanos {
+  background-image: url(../imagenes/fondocontacto.jpeg);
+  background-size: cover;
 }
-.mapa{
-	display: flex;
-	justify-content: center;
-	background-color: $background-color_2;
-	border-radius: 1px solid black;
+
+
+.redesSociales {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 1rem;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+h2 {
+  animation-name: texto;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  font-family: $font-family_1;
+  display: flex;
+  color:$color_1;
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
+@keyframes texto{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity:100% ;
+  }
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.parrafo5 {
+  font-size: 1rem;
+  margin-bottom: 0px;
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  border-radius: 2px solid black;
+  padding: 10px;
+  
 }

@@ -1,22 +1,22 @@
 .parrafo1 {
   color: black;
   font-size: 15px;
-  background-color: #e6dbd0; }
+  background-color: #BB9457; }
 
 .parrafo2 {
   color: black;
   font-size: 15px;
-  background-color: #e6dbd0; }
+  background-color: #BB9457; }
 
 .parrafo3 {
   color: black;
   font-size: 15px;
-  background-color: #e6dbd0; }
+  background-color: #BB9457; }
 
 .parrafo4 {
   color: black;
   font-size: 15px;
-  background-color: #e6dbd0; }
+  background-color: #BB9457; }
 
 .visitaMendoza, .tierraSol {
   font-family: Arial, Helvetica, sans-serif;
@@ -26,62 +26,77 @@
 .tierraSol {
   font-size: 1rem; }
 
-.parrafo5 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 1rem;
-  text-align: center;
-  color: white; }
-
 .quienesSomos {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1rem;
   text-align: center;
   color: white; }
 
-header {
-  background-color: #948b89;
-  width: 100%;
-  height: 50%; }
+.inicio {
+  background-image: url(../imagenes/imagenfondo.jpg);
+  background-size: cover; }
 
 .tamlogo {
   width: 80px;
-  margin-left: 50px; }
+  margin-left: 50px;
+  margin-top: 10px; }
 
 .navbar {
-  background-image: radial-gradient(#463207, #e9dfca); }
+  background-image: linear-gradient(to top, #66605F, #BB9457); }
 
 .titulo {
-  color: #F5DFBB; }
+  color: #f5dfbb;
+  text-align: center;
+  margin-left: 100px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #6F1D1B; }
 
 .fuentes {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1rem;
   font-weight: bold;
   text-align: center;
   color: beige; }
 
-.colorBoton {
-  background-color: #F5DFBB; }
+.container-fluid0 {
+  max-width: 100%; }
+  .container-fluid0 .row {
+    align-items: center;
+    margin-bottom: 600px; }
+    .container-fluid0 .row img {
+      max-width: 100%;
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap; }
 
-h1 {
-  text-align: center;
-  text-transform: uppercase;
+.lugar {
   font-size: 1rem;
-  color: #000; }
+  text-transform: none;
+  text-align: justify;
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  border-radius: 2px solid #948b89;
+  padding: 10px;
+  background-color: #BB9457; }
 
-p {
-  text-align: center;
-  color: #000;
-  font-size: 1.5rem;
-  margin-top: 30px; }
+.sub {
+  font-size: 1,5rem;
+  text-transform: none;
+  text-align: justify;
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  border-radius: 2px solid #948b89;
+  padding: 10px;
+  background-color: #BB9457;
+  color: #f5dfbb; }
 
-.card-img {
-  height: calc( 100vh - 100px); }
-
-.quienesSomos {
-  background-color: #F5DFBB;
-  color: #000;
-  margin-bottom: 20px; }
+a {
+  text-decoration: none;
+  color: #f5dfbb;
+  font-weight: bold; }
 
 .botonWhatsApp img {
   width: 50px;
@@ -89,41 +104,9 @@ p {
   bottom: 10px;
   right: 10px; }
 
-.parrafo6 {
-  background-color: #F5DFBB;
-  font-size: 1rem;
-  margin-bottom: 100px;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
-  display: flex;
-  flex-wrap: wrap;
-  border-radius: 2px solid black; }
-
-.logo1 {
-  width: 150px;
-  height: 100px;
-  margin-left: 10px;
-  border: #F5DFBB; }
-  .logo1 h1 {
-    font-size: 1.5rem;
-    text-align: center;
-    text-transform: uppercase;
-    color: brown; }
-
-#exampleModal {
-  background-color: #F5DFBB; }
-
 footer {
-  background-image: radial-gradient(#463207, #e9dfca);
-  max-width: 100%;
-  padding: 0px 20px 0px 20px;
-  margin-left: 10px;
-  margin-top: 10px;
-  display: flex;
-  flex-wrap: wrap; }
+  background-image: linear-gradient(to top, #66605F, #BB9457);
+  max-width: 100%; }
   footer p {
     background-color: #948b89;
     font-size: 1rem;
@@ -140,13 +123,15 @@ footer {
   max-width: 100%; }
 
 .row {
-  background-color: #F5DFBB; }
+  background-color: #f5dfbb; }
 
-h2 {
-  font-size: 1rem;
-  color: brown;
-  text-transform: uppercase;
-  text-align: center; }
+.titulo {
+  color: #f5dfbb; }
+  .titulo h2 {
+    font-size: 1rem;
+    color: #f5dfbb;
+    text-transform: uppercase;
+    text-align: center; }
 
 .parrafo1 {
   font-size: 1rem;
@@ -157,7 +142,7 @@ h2 {
   box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
   display: flex;
   flex-wrap: wrap;
-  border-radius: 2px solid black;
+  border-radius: 20px solid black;
   padding: 10px; }
 
 .parrafo2 {
@@ -169,7 +154,7 @@ h2 {
   box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
   display: flex;
   flex-wrap: wrap;
-  border-radius: 2px solid black;
+  border-radius: 20px solid black;
   padding: 10px; }
 
 .parrafo3 {
@@ -193,9 +178,28 @@ h2 {
   box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
   display: flex;
   flex-wrap: wrap;
-  border-radius: 2px solid #948b89;
-  padding: 10px;
-  /*destinos turisticos*/ }
+  border-radius: 2px solid black;
+  padding: 10px; }
+
+.imagen1:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  opacity: 50; }
+
+.imagen2:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  opacity: 50; }
+
+.imagen3:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  opacity: 50; }
+
+.imagen4:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  opacity: 50; }
 
 .precio {
   font-size: 1rem;
@@ -204,46 +208,42 @@ h2 {
   -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
-  display: flex;
-  flex-wrap: wrap;
   border-radius: 2px solid #948b89;
-  padding: 10px; }
+  padding: 10px;
+  background-color: #BB9457; }
+
+/*destinos turisticos*/
+.container-fluid .row {
+  background-color: #6F1D1B; }
 
 .texto {
-  color: #948b89;
-  margin-top: 100px;
-  font-size: 1.5rem;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #f5dfbb;
+  background-color: #BB9457;
+  font-size: 1rem;
+  text-align: justify;
+  font-family: "PT Sans", sans-serif;
   -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
-  display: flex;
-  flex-wrap: wrap;
-  border-radius: 2px solid black; }
-
-.texto2 {
-  color: #948b89;
-  font-size: 1.5rem;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 150px; }
+  border-radius: 2px solid black;
+  padding: 20px 30px 30px 50px;
+  margin-top: 50px; }
 
 .valor {
-  color: #948b89;
-  font-size: 1.5rem;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #BB9457;
+  font-size: 1rem;
+  font-family: "PT Sans", sans-serif;
   -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 150px; }
+  text-align: left;
+  padding: 20px 40px 30px 40px; }
 
 /*reserva*/
+.reserva {
+  background-image: url(../imagenes/arturo-castaneyra-bfHZ85sFrEA-unsplash.jpg);
+  background-size: cover; }
+
 .formulario {
   max-width: 320px;
   height: auto;
@@ -252,7 +252,7 @@ h2 {
   margin: auto;
   margin-top: 100px;
   border-radius: 4px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: white;
   -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
@@ -271,8 +271,8 @@ h2 {
   margin-bottom: 15px;
   margin-left: 25px;
   margin-right: auto;
-  border: 1px solid #F5DFBB;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 1px solid #f5dfbb;
+  font-family: "PT Sans", sans-serif;
   font-size: 15px;
   display: flex; }
 
@@ -282,8 +282,8 @@ h2 {
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 15px;
-  border: 1px solid #F5DFBB;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 1px solid #f5dfbb;
+  font-family: "PT Sans", sans-serif;
   font-size: 15px;
   display: flex;
   margin-left: 30px; }
@@ -294,8 +294,8 @@ h2 {
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 15px;
-  border: 1px solid #F5DFBB;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 1px solid #f5dfbb;
+  font-family: "PT Sans", sans-serif;
   font-size: 15px;
   display: flex;
   margin-left: 30px;
@@ -307,8 +307,8 @@ h2 {
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 15px;
-  border: 2px solid #F5DFBB;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 2px solid #f5dfbb;
+  font-family: "PT Sans", sans-serif;
   font-size: 15px;
   display: flex;
   margin-left: 30px;
@@ -317,56 +317,64 @@ h2 {
 .primero:focus {
   height: 35px;
   color: white;
-  border: 2px solid #F5DFBB; }
+  border: 2px solid #f5dfbb; }
 
 .segundo:focus {
   height: 35px;
   color: white;
-  border: 2px solid #F5DFBB; }
+  border: 2px solid #f5dfbb; }
 
 .primero {
   margin-left: 30px; }
 
-.reserva {
-  background-image: url(../imagenes/hojas.jpg);
-  background-size: 100vh w-10;
-  background-repeat: no-repeat;
-  flex-wrap: wrap; }
+.segundo {
+  margin: left 30px; }
 
 /*contactanos*/
+.contactanos {
+  background-image: url(../imagenes/fondocontacto.jpeg);
+  background-size: cover; }
+
 .redesSociales {
-  background-color: #F5DFBB;
   display: flex;
   flex-direction: row;
-  flex-flow: nowrap;
-  justify-content: space-between; }
-  .redesSociales h2 {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 1rem;
-    display: flex;
-    align-items: flex-start;
-    color: #000; }
-  .redesSociales h3 {
-    text-align: center;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 1rem;
-    text-align: center;
-    justify-content: flex-end;
-    align-items: flex-end; }
+  justify-content: center;
+  font-size: 1rem;
+  margin-top: 50px;
+  margin-bottom: 0; }
 
-.visitanos {
-  background-color: #948b89;
-  font-size: 1.5rem;
-  text-align: left;
-  text-transform: uppercase;
-  text-align: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: #000; }
-  .visitanos p {
-    font-size: 1rem; }
+h2 {
+  animation-name: texto;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  font-family: "PT Sans", sans-serif;
+  display: flex;
+  color: #f5dfbb;
+  font-size: 1rem;
+  margin-bottom: 50px; }
+
+@keyframes texto {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 100%; } }
 
 .mapa {
   display: flex;
   justify-content: center;
-  background-color: #F5DFBB;
-  border-radius: 1px solid black; }
+  margin-top: 30px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-wrap: wrap; }
+
+.parrafo5 {
+  font-size: 1rem;
+  margin-bottom: 0px;
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  border-radius: 2px solid black;
+  padding: 10px; }

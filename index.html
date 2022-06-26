@@ -7,15 +7,17 @@
     <meta name="description" content="Te invitamos a conocer los paisajes de la Provincia mas hermosa de la Argentina, reserva ya que hay buenas promociones">
     <title>Inicio</title>
    <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/estilo.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 
 
-<body >
+<body class="inicio">
+
     <nav class="navbar navbar-expand-lg navbar">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img class="tamlogo rounded-circle"  src="imagenes/logo.jpg" alt=""></a>
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="..index.html"><img class=" mt-5 img-fluid tamlogo rounded-circle"  src="imagenes/logo.jpg" alt=""></a>
+          
             <h1 class="titulo">TURISMO EL AMANECER </h1>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,83 +35,69 @@
                 <a class="nav-link fuentes" aria-current="page"  href="pages/Reserva.html">Reserva</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fuentes" aria-current="page"  href="pages/Contactanos.html">Contactanos</a>
+                <a class="nav-link fuentes" aria-current="page"  href="pages/Contactanos.html">Contáctanos</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      <!-- aplico modal -->
-      <!-- Button trigger modal -->
-
+    
       <header>
-        <div class="card bg-dark text-white">
-            <img  src="/imagenes/paisaje de montaña.jpg" class="card-img" alt="...">
-            <div class="card-img-overlay">
-              <p class="visitaMendoza">Visita Mendoza</p>
-              <p class="tierraSol">La tierra del sol y el buen vino</p>
+        <div class="container-fluid0"   >
+          <div class="row">
+            <div class="col-lg-4 col-md-8 col-sm-12 mt-2 p-4 ">        
+                  <p class="sub"  >  visita Mendoza     </p>
+                 <p  class="sub" >  La Tierra del Sol y el buen vino                     </p>
+            </div> 
+          
+            <div class="col-lg-4 col-md-8 col-sm-12 mt-2 p-4 ">       
+                <img class="imagen0"  src="imagenes/montañismo1.jpg" alt="imagen de montaña">
+                <a href="pages/Destinosturisticos.html"> <p class="lugar" >Destinos turisticos</p></a>
+                          
             </div>
-
-          <div>
-            <button type="button" class="btn colorBoton m-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              consultas
-            </button>
-            
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">A donde queres ir?</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="cerrar"></button>
-                  </div>
-                  <div class="modal-body">
-                    Gracias por confiar en Nosotros
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
-                    <button type="button" class="btn btn colorBoton">consultar</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-             <div>
+                
+            <div class="col-lg-4 col-md-8 col-sm-12 mt-2 p-4 ">
+              <img class="imagen0"  src="imagenes/city tour7.jpg"alt="imagen de ciudad">
               
-              <p class="parrafo6">Somos la empresa de viajes de excursiones locales más importante de Mendoza. Nuestro constante desarrollo se basa en inigualables condiciones para viajes y excursiones sumados a un servicio integral de asesoramiento en servicios complementarios. Nos destacamos por un profesionalismo en constante proceso dinámico para ofrecer lo que nuestros clientes necesitan. Nuestros paquetes y excursiones por la provincia de Mendoza y sus alrededores están pensados para disfrutar al máximo. Buscamos satisfacer todas sus necesidades: vivir intensos momentos de aventura o conocer nuevos lugares a través de tranquilos paseos. Viajar es disfrutar de nuevas experiencias. Es por eso que no sólo ofrecemos los servicios necesarios para disfrutar de un viaje, sino que le brindamos toda la información necesaria para que su estadía sea inolvidable.</p>
-
+                <a href="pages/tiposdeexcursiones.html"> <p class="lugar" >Tipos de excursiones</p></a>        
+                        
             </div>
-          
-            
-            
-          </header>       
+
+         </div>
+        </div>
+
+
+        
+
+        </header>
+       
+          <footer>
+            <div class="container">
+                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                  <div class="col-md-4 d-flex align-items-center">
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                      <svg class="bi" width="20" height="24"><use xlink:href="#bootstrap"></use></svg>
+                    </a>
+                    <span class="text-muted">© 2022 "EL AMANECER" todos los derechos reservados</span>
+                  </div>
+              
+                  <ul class="nav col-md-4 justify-content-end list-unstyled d-flex animate_animated animate_pulse">
+                    <li class="ms-3"><a class="text-muted" href="#"><img src="imagenes/teeter5.png" class="bi" width="30"><use xlink:href="#twitter" alt="icono de twitter"> </use></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><img src="imagenes/facebook5.png"class="bi" width="30"><use xlink:href="#instagram" alt="icono instagram"></use></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><img src="imagenes/instagram7.png"class="bi" width="30"><use xlink:href="#facebook" alt="icono facebook"></use></a></li>
+                  </ul>
+            </div>
             
 
-          <div class="b-example-divider"></div>
+          </footer>
+             
+               
 
-          <div class="container">
-            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-              <div class="col-md-4 d-flex align-items-center">
-                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-                  <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
-                </a>
-                <span class="text-muted">&copy; Todos los derechos reservados</span>
-              </div>
-          
-              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"><a class="text-muted" href="#"><img class="iconos" src="/imagenes/teeter5.png" alt=""></li>
-                <li class="ms-3"><a class="text-muted" href="#"><img class="iconos" src="/imagenes/facebook5.png"><width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-                <li class="ms-3"><a class="text-muted" href="#"> <img class="iconos" src="/imagenes/instagram7.png"></li>
-              </ul>
-            </footer>
-          </div>
-   
+            
                    
    <div class="botonWhatsApp" >
-     <a href="https://api.whatsapp.com/send?phone=+5492615955659" target="_blank"><img src="/imagenes/wpp.png" alt="logo whatsapp"></a>
+     <a href="https://api.whatsapp.com/send?phone=+5492615955659" target="_blank"><img src="imagenes/Whatsapp..webp" alt="logo whatsapp"></a>
    </div>
-       
-   
    
 
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
