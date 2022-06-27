@@ -21,12 +21,15 @@ $background-color_2: #f5dfbb;
 
 
 .tamlogo {
-  width: 80px;
-  margin-left: 50px;
-  margin-top: 10px;
+  width: 50px;
+  margin-bottom: 10px;
+  margin-top: 0;
+  margin-left: 10px;
+  
 }
 .navbar {
-  background-image: linear-gradient(to top, #66605F,#BB9457);
+  background-image: linear-gradient(to top,#BB9457 ,#beac8e);
+  
 }
 .titulo {
   color: $color_1;
@@ -34,7 +37,7 @@ $background-color_2: #f5dfbb;
   margin-left: 100px;
   font-size: 1.5rem;   
    text-transform: uppercase;
-  color: $color_5;
+  
   }
 
 .fuentes {
@@ -43,6 +46,7 @@ $background-color_2: #f5dfbb;
   font-weight: bold;
   text-align: center;
   color: $color_2;
+ 
 }
 
 
@@ -50,9 +54,12 @@ $background-color_2: #f5dfbb;
 .container-fluid0 {
  
  max-width: 100%;
-  .row {
+  .row0 {
     align-items: center;
-    margin-bottom:600px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
    
     img {
     max-width: 100%;
@@ -60,13 +67,11 @@ $background-color_2: #f5dfbb;
     display: flex;
     flex-wrap: wrap;
    
+   
   }
   }
 
 }
-
-
-  
 
 
 
@@ -80,8 +85,9 @@ $background-color_2: #f5dfbb;
   border-radius: 2px solid $background-color_1;
   padding: 10px;
   background-color: #BB9457;
-  
-}
+  color: $color_4;
+ 
+ }
 .sub{
   font-size:1,5rem;
   text-transform: none;
@@ -92,7 +98,7 @@ $background-color_2: #f5dfbb;
   border-radius: 2px solid $background-color_1;
   padding: 10px;
   background-color: #BB9457;
-  color: $color_1;
+  color: $color_4;
   
   
   
@@ -114,20 +120,15 @@ a{
 
 
 footer {
-  background-image: linear-gradient(to top, #66605F,#BB9457);
+  background-image: linear-gradient(to top,#BB9457 ,#beac8e);
   max-width: 100%;
-  p {
-    background-color: $background-color_1;
-    font-size: 1rem;
-    text-align: left;
-    width: 100%;
-    height: 50px;
-  }
+  
+
+   .empresa{
+    color: #000;
+   }
 }
-.iconos {
-  width: 25px;
-  height: 25px;
-}
+
 
 
 
@@ -136,12 +137,8 @@ footer {
   img {
     max-width: 100%;
   }
-}
-.row {
-  background-color: $background-color_2;
-}
-.titulo {
-  color: $color_1;
+
+
 
        h2 {
             font-size: 1rem;
@@ -156,7 +153,7 @@ footer {
   text-align: justify;
   -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -1px rgba(7, 7, 7, 0.75);
   display: flex;
   flex-wrap: wrap;
   border-radius: 20px solid black;
@@ -246,7 +243,7 @@ footer {
 
 .texto{
 	
-  color: $color_1;
+  color: $color_4;
   background-color: #BB9457;
   font-size: 1rem;
   text-align: justify;
@@ -263,6 +260,7 @@ footer {
 
 .valor {
   background-color: #BB9457;
+  color: $color_4;
   font-size: 1rem;
   font-family: $font-family_1;
   -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
@@ -276,14 +274,14 @@ footer {
 /*reserva*/
 
 .reserva {
-  background-image: url(../imagenes/arturo-castaneyra-bfHZ85sFrEA-unsplash.jpg);
+  background-image: url(../imagenes/fondoReserva.jpg);
   background-size: cover;
 }
 
 .formulario {
   max-width: 320px;
   height: auto;
-  background-color: $background-color_1;
+  background-color: #BB9457;
   padding: 20px;
   margin: auto;
   margin-top: 100px;
@@ -304,7 +302,7 @@ footer {
 
 #nombre {
   width: 100%;
-  background-color: $background-color_1;
+  background-color: $background-color_2;
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 15px;
@@ -317,7 +315,7 @@ footer {
 }
 #apellido {
   width: 100%;
-  background-color: $background-color_1;
+  background-color: $background-color_2;
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 15px;
@@ -329,7 +327,7 @@ footer {
 }
 #correo {
   width: 100%;
-  background-color: $background-color_1;
+  background-color: $background-color_2;
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 15px;
@@ -343,7 +341,7 @@ footer {
 
 #textarea {
   width: 100%;
-  background-color: $background-color_1;
+  background-color: $background-color_2;
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 15px;
@@ -382,6 +380,7 @@ footer {
 
 
 .redesSociales {
+  color: #000;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -396,7 +395,7 @@ h2 {
   animation-iteration-count: infinite;
   font-family: $font-family_1;
   display: flex;
-  color:$color_1;
+  color: #000;
   font-size: 1rem;
   margin-bottom: 50px;
 }
